@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantalla1">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/backgroundgood"
+        android:background="@color/blacktrans">
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@android:style/Widget.Material.TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="GestAgro"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="50dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text=" Es una API realizada por Alumnos de la UTN FRT.  "
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:text=" Aplicando conceptos de Inteligencia Artificial , Reconocimiento por Imagen de plagas en los citricos de la provincia de San Miguel de Tucuman. "
+                android:textColor="#0E0D0D"
+                android:textSize="18dp"
+                android:textStyle="bold|italic" />
+
+
+            <Button
+                android:id="@+id/btnEscanear"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="150dp"
+                android:background="@color/colorPrimary"
+                android:onClick="Siguiente"
+                android:text="@string/BotonSiguiente" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
