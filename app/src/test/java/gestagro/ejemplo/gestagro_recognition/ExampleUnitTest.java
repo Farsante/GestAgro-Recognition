@@ -1,4 +1,4 @@
-package gestagro.ejemplo.gestagropmv2;
+package gestagro.ejemplo.gestagro_recognition;
 
 import org.junit.Test;
 

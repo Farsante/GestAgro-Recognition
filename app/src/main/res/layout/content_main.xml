@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:focusableInTouchMode="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="gestagro.ejemplo.gestagropmv2.MainActivity"
+    tools:context="gestagro.ejemplo.gestagro_recognition.MainActivity"
     tools:showIn="@layout/app_bar_main">
     <ScrollView
         android:layout_width="match_parent"

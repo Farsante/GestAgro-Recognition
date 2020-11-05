@@ -1,4 +1,4 @@
-package gestagro.ejemplo.gestagropmv2;
+package gestagro.ejemplo.gestagro_recognition;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.gestagropmv2", appContext.getPackageName());
+        assertEquals("com.example.gestagro_recognition", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package gestagro.ejemplo.gestagropmv2;
+package gestagro.ejemplo.gestagro_recognition;
 
 import android.Manifest;
 import android.app.ProgressDialog;
@@ -37,7 +37,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.gestagropmv2.R;
+import com.example.gestagro_recognition.R;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
